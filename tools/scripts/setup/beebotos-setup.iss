@@ -13,7 +13,7 @@
 #define MyAppURL "https://github.com/beebotos/beebotos"
 ; ⚠️ Update this path to your actual staging directory before compiling
 #define SourceRoot "C:\Users\you\Desktop\beebotos_installer\beebotos"
-#define MyAppExeName "beebotos-gateway.exe"
+#define MyAppExeName "beebotos-launcher.exe"
 
 [Setup]
 AppId={{BEE-BOTO-SAPP-0000-000000000001}
@@ -52,14 +52,14 @@ Name: "{app}\data\workspace"
 Source: "{#SourceRoot}\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 [Icons]
-Name: "{autoprograms}\{#MyAppName}\启动 {#MyAppName}"; Filename: "{sys}\WindowsPowerShell\v1.0\powershell.exe"; Parameters: "-NoProfile -ExecutionPolicy Bypass -File ""{app}\beebotos-run.ps1"" start all"; WorkingDir: "{app}"
+Name: "{autoprograms}\{#MyAppName}\{#MyAppName} Launcher"; Filename: "{app}\{#MyAppExeName}"; WorkingDir: "{app}"
 Name: "{autoprograms}\{#MyAppName}\停止 {#MyAppName}"; Filename: "{sys}\WindowsPowerShell\v1.0\powershell.exe"; Parameters: "-NoProfile -ExecutionPolicy Bypass -File ""{app}\beebotos-run.ps1"" stop all"; WorkingDir: "{app}"
 Name: "{autoprograms}\{#MyAppName}\查看状态"; Filename: "{sys}\WindowsPowerShell\v1.0\powershell.exe"; Parameters: "-NoProfile -ExecutionPolicy Bypass -NoExit -File ""{app}\beebotos-run.ps1"" status"; WorkingDir: "{app}"
 Name: "{autoprograms}\{#MyAppName}\{#MyAppName} Web"; Filename: "http://localhost:8090"
-Name: "{autodesktop}\{#MyAppName}"; Filename: "{sys}\WindowsPowerShell\v1.0\powershell.exe"; Parameters: "-NoProfile -ExecutionPolicy Bypass -File ""{app}\beebotos-run.ps1"" start all"; WorkingDir: "{app}"; Tasks: desktopicon
+Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; WorkingDir: "{app}"; Tasks: desktopicon
 
 [Run]
-Filename: "{sys}\WindowsPowerShell\v1.0\powershell.exe"; Parameters: "-NoProfile -ExecutionPolicy Bypass -File ""{app}\beebotos-run.ps1"" start all"; WorkingDir: "{app}"; Description: "启动 {#MyAppName}"; Flags: postinstall skipifsilent unchecked
+Filename: "{app}\{#MyAppExeName}"; WorkingDir: "{app}"; Description: "打开 {#MyAppName} Launcher"; Flags: postinstall skipifsilent unchecked
 
 [UninstallRun]
 ; Stop all services before uninstalling

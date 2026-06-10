@@ -88,6 +88,14 @@ $Services = @(
         Desc = "BeeHub Service"
     },
     @{
+        Name = "launcher"
+        Package = "beebotos-launcher"
+        BuildCmd = "cargo build --release -p beebotos-launcher"
+        Binary = $null
+        Port = 0
+        Desc = "BeeBotOS Launcher"
+    },
+    @{
         Name = "cli"
         BuildCmd = "cargo install --path apps\cli --force"
         Binary = $null
@@ -347,12 +355,25 @@ function Pack-Release($target = "all") {
         Print-Info "Packaging native Windows target"
     }
 
-    $buildList = if ($target -eq "all") { @("gateway", "web", "beehub") } else { @($target) }
+    $buildList = if ($target -eq "all") { @("gateway", "web", "beehub") } elseif ($target -eq "launcher") { @() } else { @($target) }
     foreach ($svcName in $buildList) {
         if ($svcName -eq "cli") { continue }
         if (-not (Build-Service $svcName $cargoTarget)) {
             Print-Error "Cannot pack because build failed: $svcName"
             exit 1
+        }
+    }
+    if ($target -eq "all" -or $target -eq "launcher") {
+        if ($HostIsWindows) {
+            if (-not (Build-Service "launcher" $cargoTarget)) {
+                Print-Error "Cannot pack because build failed: launcher"
+                exit 1
+            }
+        } elseif ($target -eq "launcher") {
+            Print-Error "Launcher packaging requires native Windows."
+            exit 1
+        } else {
+            Print-Warn "Launcher packaging is skipped outside native Windows packaging."
         }
     }
 
@@ -384,6 +405,9 @@ function Pack-Release($target = "all") {
         } else {
             Print-Warn "beehub.exe not found, skipping"
         }
+    }
+    if ($HostIsWindows -and ($target -eq "all" -or $target -eq "launcher")) {
+        if (-not (Copy-RequiredFile (Get-BinaryPath "beebotos-launcher" $cargoTarget) $outDir)) { exit 1 }
     }
 
     if (Test-Path (Join-Path $ProjectRoot "config")) {
@@ -489,7 +513,7 @@ function Handle-Menu {
             "1.3" { Build-Service "cli" }
             "1.4" { Build-Service "beehub" }
             "1.5" {
-                foreach ($svc in @("gateway", "web", "cli", "beehub")) {
+                foreach ($svc in @("gateway", "web", "cli", "beehub", "launcher")) {
                     Build-Service $svc | Out-Null
                 }
             }
@@ -546,7 +570,7 @@ function Handle-Cli($action, $target = "all") {
 
     switch ($action) {
         "build" {
-            $list = if ($target -eq "all") { @("gateway", "web", "cli", "beehub") } else { @($target) }
+            $list = if ($target -eq "all") { @("gateway", "web", "cli", "beehub", "launcher") } else { @($target) }
             foreach ($svc in $list) { Build-Service $svc | Out-Null }
         }
         "start" {
