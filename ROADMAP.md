@@ -75,4 +75,4 @@ BeeBotOS aims to become the standard operating system for autonomous AI agents, 
 
 ## How to Contribute
 
-Check our [good first issues](https://github.com/beebotos/beebotos/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) to get started!
+Check our [good first issues](https://github.com/linc77/beebotos/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) to get started!

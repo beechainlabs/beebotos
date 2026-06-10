@@ -5,7 +5,7 @@ syntax = "proto3";
 
 package beebotos.dao;
 
-option go_package = "github.com/beebotos/beebotos/proto/dao";
+option go_package = "github.com/linc77/beebotos/proto/dao";
 
 // DAO governance service
 service DAOGovernance {

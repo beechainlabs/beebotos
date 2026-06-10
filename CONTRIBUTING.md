@@ -52,7 +52,7 @@ git clone https://github.com/YOUR_USERNAME/beebotos.git
 cd beebotos
 
 # 3. 添加 upstream 远程仓库
-git remote add upstream https://github.com/beebotos/beebotos.git
+git remote add upstream https://github.com/linc77/beebotos.git
 
 # 4. 创建功能分支
 git checkout -b feature/your-feature-name
@@ -384,8 +384,8 @@ cargo doc --all --open
 | 渠道 | 用途 | 链接 |
 |------|------|------|
 | Discord | 实时讨论 | https://discord.gg/beebotos |
-| GitHub Discussions | 技术讨论 | https://github.com/beebotos/beebotos/discussions |
-| GitHub Issues | Bug 报告 | https://github.com/beebotos/beebotos/issues |
+| GitHub Discussions | 技术讨论 | https://github.com/linc77/beebotos/discussions |
+| GitHub Issues | Bug 报告 | https://github.com/linc77/beebotos/issues |
 | Email | 私有咨询 | dev@beebotos.io |
 
 ### 获取帮助
@@ -393,7 +393,7 @@ cargo doc --all --open
 如果您在贡献过程中遇到问题：
 
 1. 查阅 [文档](https://docs.beebotos.io)
-2. 搜索 [Issues](https://github.com/beebotos/beebotos/issues)
+2. 搜索 [Issues](https://github.com/linc77/beebotos/issues)
 3. 在 Discord 的 `#help` 频道提问
 
 ---

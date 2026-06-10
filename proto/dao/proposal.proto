@@ -4,7 +4,7 @@ package beebotos.dao.proposal;
 
 import "google/protobuf/timestamp.proto";
 
-option go_package = "github.com/beebotos/beebotos/proto/dao";
+option go_package = "github.com/linc77/beebotos/proto/dao";
 
 // Proposal lifecycle messages
 message Proposal {

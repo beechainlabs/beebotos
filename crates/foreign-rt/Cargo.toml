@@ -5,7 +5,7 @@ edition = "2021"
 authors = ["BeeBotOS Team"]
 description = "BeeBotOS Foreign Runtime - Python & Node.js execution support"
 license = "MIT"
-repository = "https://github.com/beebotos/beebotos"
+repository = "https://github.com/linc77/beebotos"
 
 [dependencies]
 beebotos-core = { path = "../core" }

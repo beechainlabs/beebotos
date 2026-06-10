@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package beebotos.agent.task;
 
-option go_package = "github.com/beebotos/beebotos/proto/agent";
+option go_package = "github.com/linc77/beebotos/proto/agent";
 
 import "common/types.proto";
 

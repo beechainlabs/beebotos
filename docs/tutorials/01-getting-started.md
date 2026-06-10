@@ -23,7 +23,7 @@ rustup default nightly
 ### Clone BeeBotOS
 
 ```bash
-git clone https://github.com/beebotos/beebotos.git
+git clone https://github.com/linc77/beebotos.git
 cd beebotos
 ```
 

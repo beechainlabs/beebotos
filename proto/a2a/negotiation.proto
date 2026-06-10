@@ -4,7 +4,7 @@ package beebotos.a2a.negotiation;
 
 import "google/protobuf/timestamp.proto";
 
-option go_package = "github.com/beebotos/beebotos/proto/a2a";
+option go_package = "github.com/linc77/beebotos/proto/a2a";
 
 // Negotiation message types
 message NegotiationMessage {

@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package beebotos.messagebus.v1;
 
-option go_package = "github.com/beebotos/beebotos/message-bus/proto";
+option go_package = "github.com/linc77/beebotos/message-bus/proto";
 
 import "google/protobuf/timestamp.proto";
 import "google/protobuf/duration.proto";

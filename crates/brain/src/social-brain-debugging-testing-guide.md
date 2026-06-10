@@ -36,7 +36,7 @@ cargo install cargo-criterion
 
 ```bash
 # 克隆项目
-git clone https://github.com/beebotos/beebotos.git
+git clone https://github.com/linc77/beebotos.git
 cd beebotos
 
 # 检查 social-brain 模块

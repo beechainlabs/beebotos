@@ -80,7 +80,7 @@ docker logs -f beebotos
 
 ```bash
 # 克隆仓库
-git clone https://github.com/beebotos/beebotos.git
+git clone https://github.com/linc77/beebotos.git
 cd beebotos
 
 # 编译 (可能需要 10-20 分钟)
@@ -255,7 +255,7 @@ beebotos-cli agent deploy agent_abc123xyz --network mainnet
 
 - [故障排查指南](../guides/troubleshooting.md)
 - [Discord 社区](https://discord.gg/beebotos)
-- [GitHub Issues](https://github.com/beebotos/beebotos/issues)
+- [GitHub Issues](https://github.com/linc77/beebotos/issues)
 
 ---
 

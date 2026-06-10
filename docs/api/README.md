@@ -241,7 +241,7 @@ curl -X POST https://api.beebotos.io/v1/agents/{agent_id}/message \
 
 - 📧 邮件: api@beebotos.io
 - 💬 Discord: [开发者频道](https://discord.gg/beebotos)
-- 🐛 问题报告: [GitHub Issues](https://github.com/beebotos/beebotos/issues)
+- 🐛 问题报告: [GitHub Issues](https://github.com/linc77/beebotos/issues)
 
 ---
 

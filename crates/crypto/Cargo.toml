@@ -5,7 +5,7 @@ edition = "2021"
 authors = ["BeeBotOS Team"]
 description = "BeeBotOS Crypto - Cryptographic primitives"
 license = "MIT"
-repository = "https://github.com/beebotos/beebotos"
+repository = "https://github.com/linc77/beebotos"
 
 [dependencies]
 beebotos-core = { path = "../core" }

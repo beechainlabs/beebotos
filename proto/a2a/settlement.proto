@@ -4,7 +4,7 @@ package beebotos.a2a.settlement;
 
 import "google/protobuf/timestamp.proto";
 
-option go_package = "github.com/beebotos/beebotos/proto/a2a";
+option go_package = "github.com/linc77/beebotos/proto/a2a";
 
 // Settlement and payment messages
 message SettlementMessage {

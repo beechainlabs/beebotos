@@ -11,7 +11,7 @@ Thank you for your interest in contributing to the beebotos-brain module!
 
 2. **Clone the repository**
    ```bash
-   git clone https://github.com/beebotos/beebotos.git
+   git clone https://github.com/linc77/beebotos.git
    cd beebotos/crates/brain
    ```
 

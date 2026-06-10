@@ -5,7 +5,7 @@ edition = "2021"
 authors = ["BeeBotOS Team"]
 description = "BeeBotOS Agents - Runtime and A2A protocol"
 license = "MIT"
-repository = "https://github.com/beebotos/beebotos"
+repository = "https://github.com/linc77/beebotos"
 
 [dependencies]
 beebotos-core = { path = "../core" }

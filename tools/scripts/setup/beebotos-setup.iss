@@ -10,7 +10,7 @@
 #define MyAppName "BeeBotOS"
 #define MyAppVersion "1.5.0"
 #define MyAppPublisher "BeeBotOS Team"
-#define MyAppURL "https://github.com/beebotos/beebotos"
+#define MyAppURL "https://github.com/linc77/beebotos"
 ; ⚠️ Update this path to your actual staging directory before compiling
 #define SourceRoot "C:\Users\you\Desktop\beebotos_installer\beebotos"
 #define MyAppExeName "beebotos-gateway.exe"

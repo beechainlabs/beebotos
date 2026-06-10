@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package beebotos.skills.registry;
 
-option go_package = "github.com/beebotos/beebotos/proto/skills";
+option go_package = "github.com/linc77/beebotos/proto/skills";
 
 import "common/types.proto";
 

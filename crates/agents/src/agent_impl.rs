@@ -2097,7 +2097,7 @@ impl Agent {
         let client = reqwest::Client::builder()
             .timeout(std::time::Duration::from_secs(20))
             .redirect(reqwest::redirect::Policy::limited(5))
-            .user_agent("BeeBotOS/1.0 (+https://github.com/beebotos/beebotos)")
+            .user_agent("BeeBotOS/1.0 (+https://github.com/linc77/beebotos)")
             .build()
             .map_err(|e| AgentError::Execution(format!("Failed to build HTTP client: {}", e)))?;
         let response = client
@@ -2370,7 +2370,7 @@ impl Agent {
         let client = reqwest::Client::builder()
             .timeout(std::time::Duration::from_secs(20))
             .redirect(reqwest::redirect::Policy::limited(5))
-            .user_agent("BeeBotOS/1.0 (+https://github.com/beebotos/beebotos)")
+            .user_agent("BeeBotOS/1.0 (+https://github.com/linc77/beebotos)")
             .build()
             .map_err(|e| AgentError::Execution(format!("Failed to build HTTP client: {}", e)))?;
 

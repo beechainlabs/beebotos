@@ -661,7 +661,7 @@ beebotos system start --config system.yaml
 ## Support
 
 - [Discord #multi-agent channel](https://discord.gg/beebotos)
-- [GitHub Discussions](https://github.com/beebotos/beebotos/discussions)
+- [GitHub Discussions](https://github.com/linc77/beebotos/discussions)
 
 ---
 

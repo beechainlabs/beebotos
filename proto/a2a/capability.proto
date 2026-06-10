@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package beebotos.a2a.capability;
 
-option go_package = "github.com/beebotos/beebotos/proto/a2a";
+option go_package = "github.com/linc77/beebotos/proto/a2a";
 
 import "common/types.proto";
 

@@ -4,7 +4,7 @@ version = "1.0.0"
 edition = "2021"
 description = "SDK for developing BeeBotOS skills"
 license = "MIT"
-repository = "https://github.com/beebotos/beebotos"
+repository = "https://github.com/linc77/beebotos"
 keywords = ["beebotos", "sdk", "wasm", "agent", "skill"]
 categories = ["wasm", "development-tools"]
 

@@ -16,7 +16,7 @@ docker run -p 8080:8080 beebotos/beebotos:latest
 ### 从源码编译
 
 ```bash
-git clone https://github.com/beebotos/beebotos.git
+git clone https://github.com/linc77/beebotos.git
 cd beebotos
 cargo build --release
 ./target/release/beebotos-server

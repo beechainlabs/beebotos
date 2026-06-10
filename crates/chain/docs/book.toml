@@ -40,7 +40,7 @@ heading-split-level = 3
 enable = true
 
 [output.html.git-repository-url]
-url = "https://github.com/beebotos/beebotos"
+url = "https://github.com/linc77/beebotos"
 
 [output.html.git-repository-icon]
 icon = "fa-github"

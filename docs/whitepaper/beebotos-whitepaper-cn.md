@@ -511,7 +511,7 @@ BeeBotOS 采用创新的混合治理模式，人类和 Agent 共同参与决策�
 
 - [架构设计](../../BeeBotOS-Design-v1-with-DAO.md)
 - [技术规范](../../BeeBotOS-V1-Technical-Specification.md)
-- [GitHub](https://github.com/beebotos/beebotos)
+- [GitHub](https://github.com/linc77/beebotos)
 
 ### B. 联系方式
 

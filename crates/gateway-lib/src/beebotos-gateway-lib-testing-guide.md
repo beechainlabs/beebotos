@@ -62,7 +62,7 @@ rustc --version  # >= 1.75.0
 cargo --version  # >= 1.75.0
 
 # 克隆代码
-git clone https://github.com/beebotos/beebotos.git
+git clone https://github.com/linc77/beebotos.git
 cd beebotos/crates/gateway
 
 # 安装依赖

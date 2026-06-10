@@ -5,7 +5,7 @@ edition = "2021"
 authors = ["BeeBotOS Team"]
 description = "BeeBotOS Command Line Interface"
 license = "MIT"
-repository = "https://github.com/beebotos/beebotos"
+repository = "https://github.com/linc77/beebotos"
 default-run = "beebot"
 
 [[bin]]

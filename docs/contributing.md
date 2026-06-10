@@ -49,7 +49,7 @@
 ## 需要帮助？
 
 - [Discord](https://discord.gg/beebotos)
-- [GitHub Issues](https://github.com/beebotos/beebotos/issues)
+- [GitHub Issues](https://github.com/linc77/beebotos/issues)
 
 详细贡献指南请参考 [CONTRIBUTING.md](../CONTRIBUTING.md)
 

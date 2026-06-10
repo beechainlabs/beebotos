@@ -66,7 +66,7 @@ cargo test --features integration
 ## Documentation
 
 - [Full Documentation](https://docs.beebotos.io/sdk)
-- [Examples](https://github.com/beebotos/beebotos/tree/main/examples)
+- [Examples](https://github.com/linc77/beebotos/tree/main/examples)
 - [API Reference](https://docs.rs/beebot-sdk)
 
 ## License

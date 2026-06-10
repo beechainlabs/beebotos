@@ -116,5 +116,5 @@ Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md)
 
 ## Support
 
-- GitHub Issues: [Report bugs or request features](https://github.com/beebotos/beebotos/issues)
-- Discussions: [Ask questions or share ideas](https://github.com/beebotos/beebotos/discussions)
+- GitHub Issues: [Report bugs or request features](https://github.com/linc77/beebotos/issues)
+- Discussions: [Ask questions or share ideas](https://github.com/linc77/beebotos/discussions)

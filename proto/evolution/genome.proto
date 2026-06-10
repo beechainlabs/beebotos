@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package beebotos.evolution.genome;
 
-option go_package = "github.com/beebotos/beebotos/proto/evolution";
+option go_package = "github.com/linc77/beebotos/proto/evolution";
 
 import "common/types.proto";
 

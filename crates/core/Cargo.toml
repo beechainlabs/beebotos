@@ -5,7 +5,7 @@ edition = "2021"
 authors = ["BeeBotOS Team"]
 description = "BeeBotOS Core - Shared types and utilities"
 license = "MIT"
-repository = "https://github.com/beebotos/beebotos"
+repository = "https://github.com/linc77/beebotos"
 
 [dependencies]
 serde = { version = "1.0", features = ["derive"] }

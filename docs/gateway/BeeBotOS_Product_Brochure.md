@@ -441,7 +441,7 @@ docker-compose -f docker/docker-compose.yml up -d
 
 **产品官网**: https://beebotos.io  
 **开发者文档**: https://docs.beebotos.io  
-**GitHub 开源**: https://github.com/beebotos/beebotos
+**GitHub 开源**: https://github.com/linc77/beebotos
 
 ---
 

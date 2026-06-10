@@ -5,7 +5,7 @@ edition = "2021"
 authors = ["BeeBotOS Team"]
 description = "Unified message bus for BeeBotOS with multiple transport backends"
 license = "MIT"
-repository = "https://github.com/beebotos/beebotos"
+repository = "https://github.com/linc77/beebotos"
 
 # [[bin]]
 # name = "mbus-cli"

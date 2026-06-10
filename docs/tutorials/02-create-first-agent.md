@@ -522,7 +522,7 @@ cd examples/basic-agent
 
 - [Documentation](https://docs.beebotos.dev)
 - [Discord](https://discord.gg/beebotos)
-- [GitHub Issues](https://github.com/beebotos/beebotos/issues)
+- [GitHub Issues](https://github.com/linc77/beebotos/issues)
 
 ---
 

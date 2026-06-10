@@ -511,7 +511,7 @@ Please make investment decisions only after fully understanding the risks.
 
 - [Architecture Design](../../BeeBotOS-Design-v1-with-DAO.md)
 - [Technical Specification](../../BeeBotOS-V1-Technical-Specification.md)
-- [GitHub](https://github.com/beebotos/beebotos)
+- [GitHub](https://github.com/linc77/beebotos)
 
 ### B. Contact
 

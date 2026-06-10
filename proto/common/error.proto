@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package beebotos.common.error;
 
-option go_package = "github.com/beebotos/beebotos/proto/common";
+option go_package = "github.com/linc77/beebotos/proto/common";
 
 // Standard error definitions for BeeBotOS
 message Error {

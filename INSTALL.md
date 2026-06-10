@@ -87,7 +87,7 @@ protoc --version
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/beebotos/beebotos.git
+git clone https://github.com/linc77/beebotos.git
 cd beebotos
 ```
 
@@ -134,11 +134,11 @@ cargo install --path apps/cli --root /usr/local
 
 ### Method 2: Using Pre-built Binaries
 
-Download from [GitHub Releases](https://github.com/beebotos/beebotos/releases):
+Download from [GitHub Releases](https://github.com/linc77/beebotos/releases):
 
 ```bash
 # Linux/macOS
-curl -L https://github.com/beebotos/beebotos/releases/download/v1.0.0/beebotos-linux-amd64.tar.gz | tar xz
+curl -L https://github.com/linc77/beebotos/releases/download/v1.0.0/beebotos-linux-amd64.tar.gz | tar xz
 sudo mv beebotos /usr/local/bin/
 
 # Windows
@@ -285,7 +285,7 @@ brew install ca-certificates
 
 - [Documentation](https://docs.beebotos.dev)
 - [Discord Community](https://discord.gg/beebotos)
-- [GitHub Issues](https://github.com/beebotos/beebotos/issues)
+- [GitHub Issues](https://github.com/linc77/beebotos/issues)
 
 ## Next Steps
 
